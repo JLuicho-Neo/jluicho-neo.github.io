@@ -10,7 +10,7 @@
       for (var i = 0; i < response.items.length; i++) {
         var item = response.items[i];
         document.getElementById("content").innerHTML += "<br>" + item.htmlTitle;
-        document.getElementById("content").innerHTML += "<br>" + item.link;
+        document.getElementById("content").innerHTML += "<br>" + item.formattedUrl;
         document.getElementById("content").innerHTML += "<br>" + item.htmlSnippet + "<br>";
       }
     }
